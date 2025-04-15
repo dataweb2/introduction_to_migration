@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "The Rise of Artificial Intelligence in Daily Life",
+    "content": "Artificial intelligence is no longer confined to research labs. From virtual assistants like Siri and Alexa to smart recommendations on Netflix, AI is becoming an integral part of our everyday experiences.",
+    "image": {
+      "image_id": 1,
+      "url": "https://i0.wp.com/diabetesvoice.org/wp-content/uploads/2024/08/basic-and-translational-science.png?w=800&ssl=1"
+    },
+    "tags": ["Technology", "Sustainability"]
+  },
+  {
+    "id": 2,
+    "title": "Exploring the Natural Beauty of Patagonia",
+    "content": "Patagonia offers some of the most breathtaking landscapes in the world. Towering mountains, glacial lakes, and endless hiking trails make it a paradise for adventure seekers and nature lovers alike.",
+    "image": {
+      "image_id": 2,
+      "url": "https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202309/Art%20for%20Scientists%202.jpeg"
+    },
+    "tags": ["Travel", "Wellness"]
+  },
+  {
+    "id": 3,
+    "title": "How to Start a Successful Remote Work Career",
+    "content": "https://whitmancontrols.com/wp-content/uploads/2023/09/semiconductor_manufacturing_-_whitman_oem_article-min-1-800x600.png",
+    "image": {
+      "image_id": 3,
+      "url": "https://images.unsplash.com/photo-1587614382346-ac7f1c9b3026.jpg"
+    },
+    "tags": ["Career", "Technology"]
+  },
+  {
+    "id": 4,
+    "title": "The Future of Renewable Energy Technologies",
+    "content": "As the world shifts toward cleaner energy, innovations in solar, wind, and battery storage are paving the way for a sustainable future. These technologies are rapidly becoming more efficient and cost-effective.",
+    "image": {
+      "image_id": 4,
+      "url": "https://www.development.ox.ac.uk/image/news-and-impact/news/Schmidt-Futures-AI-in-Science-Shutterstock.jpg"
+    },
+    "tags": ["Sustainability", "Technology"]
+  },
+  {
+    "id": 5,
+    "title": "A Guide to Mindful Living in a Digital World",
+    "content": "In a fast-paced, tech-saturated society, mindfulness can help us find clarity and peace. Learn how to create balance through meditation, digital detoxes, and conscious daily habits.",
+    "image": {
+      "image_id": 5,
+      "url": "https://www.whyislam.org/wp-content/uploads/2025/01/Astronomy.jpg"
+    },
+    "tags": ["Wellness", "Career"]
+  }
+]
