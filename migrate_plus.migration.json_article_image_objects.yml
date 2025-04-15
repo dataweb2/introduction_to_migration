@@ -16,7 +16,7 @@ source:
   data_fetcher_plugin: file
   data_parser_plugin: json
   urls:
-    - 'public://json/articles.json'
+    - 'public://json/articles_with_images_object.json'
   fields:
     -
       name: src_id
