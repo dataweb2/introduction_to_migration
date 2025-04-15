@@ -1,0 +1,35 @@
+uuid: a2e3de22-5795-41c2-ab0c-763005aeb3db
+langcode: en
+status: true
+dependencies: {  }
+id: csv_countries
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: json
+label: 'JSON countries'
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls:
+    - 'https://gist.githubusercontent.com/almost/7748738/raw/575f851d945e2a9e6859fb2308e95a3697bea115/countries.json'
+  fields:
+    -
+      name: src_code
+      label: code
+      selector: code
+    -
+      name: src_name
+      label: Name
+      selector: name
+  ids:
+    src_code:
+      type: string
+process:
+  name: src_name
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: countries
+migration_dependencies: {  }
