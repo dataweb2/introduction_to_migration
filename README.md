@@ -17,7 +17,7 @@ For the `json_articles`, `json_article_image_urls` and `json_article_image_objec
 * the tags are migrated to the vocabulary `tags` and referenced in the `field_tags` field of the article.
 * the images are migrated to file entities and referenced in the `field_image` field of the article.
 
-For the `json_countries` migration we we created an extra taxonomy vocabulary `countries`. No extra fields are required there.
+For the `json_countries` migration an extra taxonomy vocabulary `countries` has to be created. No extra fields are required there.
 
 
 ## A no-PHP-code session
