@@ -15,7 +15,7 @@ The `migrate_plus` module extends the Drupal migrate functionality with the `url
 For the `json_articles`, `json_article_image_urls` and `json_article_image_objects` migrations:
 * we use the `node:article` bundle with `field_tags` and `field_image` that is available in Drupal by default.
 * the tags are migrated to the vocabulary `tags` and referenced in the `field_tags` field of the article.
-* the images are migrated to file entities and referenced in the `field_image' field of the article.
+* the images are migrated to file entities and referenced in the `field_image` field of the article.
 
 For the `json_countries` migration we we created an extra taxonomy vocabulary `countries`. No extra fields are required there.
 
