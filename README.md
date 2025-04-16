@@ -2,17 +2,21 @@
 
 In this session we write a migration to import/update articles with related tags and image into Drupal. The articles content is made available via a JSON file, which is a commonly used data format for exchanging content between systems.
 
-* For this we use the `node:article` bundle that is available in Drupal by default.
-* The tags are migrated to the vocabulary 'tags' and referenced in the `field_tags` of the article.
-* The images are migrated to file entities and referenced in the `field_image' of the article.
-
-For the `json_countries` migration we we created an extra taxonomy vocabulary `countries`. No extra fields are required there.
-
 ## Drupal setup
 
 The Drupal setup used in this session was a 'out-of-the-box' Drupal 11 install with contribute module `migrate_plus' and 'migrate_tools` installed and enabled.
 
 The migrate_tools module gives you a 'Migrations' menu admin page that is available via 'Manage' > 'Structure' > 'Migrations'. In there the migrations you add via config will be detected and can be run, rollback, stop and reset.
+
+## Entity types
+
+For the `json_articles`, `json_article_image_urls` and `json_article_image_objects`:
+* we use the `node:article` bundle that is available in Drupal by default.
+* the tags are migrated to the vocabulary 'tags' and referenced in the `field_tags` of the article.
+* the images are migrated to file entities and referenced in the `field_image' of the article.
+
+For the `json_countries` migration we we created an extra taxonomy vocabulary `countries`. No extra fields are required there.
+
 
 ## A no-code PHP session
 
