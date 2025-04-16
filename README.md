@@ -22,9 +22,9 @@ For the `json_countries` migration we we created an extra taxonomy vocabulary `c
 
 ## A no-code PHP session
 
-I did not write any rule of PHP code for this session. All was done via YAML config files that were added to the config/sync folder (by default that one exists in the `sites/default/files` folder) and imported in the Drupal data via `drush cim` (config import).
+I did not write any rule of PHP code for this session. All was done via YAML config files that were added to the `config/sync` folder (by default that one exists in the `sites/default/files` folder) and imported in the Drupal data via `drush cim` (config import).
 
-We only use the plugins that are in Drupal core and the contributed modules `migrate_plus`.
+We only use the plugins that are in Drupal core and available via the contributed module `migrate_plus`.
 
 ## To get started
 
