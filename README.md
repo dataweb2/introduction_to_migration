@@ -20,9 +20,9 @@ For the `json_articles`, `json_article_image_urls` and `json_article_image_objec
 For the `json_countries` migration we we created an extra taxonomy vocabulary `countries`. No extra fields are required there.
 
 
-## A no-code PHP session
+## A no-PHP-code session
 
-I did not write any rule of PHP code for this session. All was done via YAML config files that were added to the `config/sync` folder (by default that one exists in the `sites/default/files` folder) and imported in the Drupal data via `drush cim` (config import).
+In this session we do not write any PHP code. All was done via YAML config files that were added to the `config/sync` folder (by default that one exists in the `sites/default/files` folder) and imported in the Drupal data via `drush cim` (config import).
 
 We only use the plugins that are in Drupal core and available via the contributed module `migrate_plus`.
 
