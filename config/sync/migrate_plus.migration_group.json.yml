@@ -1,0 +1,10 @@
+uuid: 48242bcb-49f1-4977-bb93-b94ef0550cc7
+langcode: en
+status: true
+dependencies: {  }
+id: json
+label: JSON
+description: ''
+source_type: json
+module: null
+shared_configuration: null
