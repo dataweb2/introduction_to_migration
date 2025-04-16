@@ -10,7 +10,7 @@ The migrate_tools module gives you a 'Migrations' menu admin page that is availa
 
 ## Entity types
 
-For the `json_articles`, `json_article_image_urls` and `json_article_image_objects`:
+For the `json_articles`, `json_article_image_urls` and `json_article_image_objects` migrations:
 * we use the `node:article` bundle that is available in Drupal by default.
 * the tags are migrated to the vocabulary 'tags' and referenced in the `field_tags` of the article.
 * the images are migrated to file entities and referenced in the `field_image' of the article.
