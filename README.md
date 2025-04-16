@@ -4,7 +4,7 @@ In this session we write a migration to import/update articles with related tags
 
 ## Drupal setup
 
-The Drupal setup used in this session was an 'out-of-the-box' Drupal 11 install with contribute module `migrate_plus' and `migrate_tools` installed and enabled.
+The Drupal setup used in this session was an 'out-of-the-box' Drupal 11 install with contribute module `migrate_plus` and `migrate_tools` installed and enabled.
 
 The `migrate_tools` module gives you a 'Migrations' admin page that is available via 'Manage' > 'Structure' > 'Migrations'. In there the migrations you add via config will be detected and can be runned, rollbacked, stoped and reset.
 
