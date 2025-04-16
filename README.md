@@ -8,7 +8,7 @@ The Drupal setup used in this session was an 'out-of-the-box' Drupal 11 install 
 
 The `migrate_tools` module gives you a 'Migrations' admin page that is available via 'Manage' > 'Structure' > 'Migrations'. In there the migrations you add via config will be detected and can be runned, rollbacked, stoped and reset.
 
-The `migrate_plus` extends the Drupal migrate functionality with the `url` source plugin that makes migrating JSON content available.
+The `migrate_plus` module extends the Drupal migrate functionality with the `url` source plugin that makes migrating JSON content available.
 
 ## Entity types
 
